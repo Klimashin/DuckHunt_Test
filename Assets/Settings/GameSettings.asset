@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d67d580f1e19d8746913e001fa757e7f, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  Stages:
+  - BulletsCount: 3
+    TargetsSpeedCoefficient: 3
+    InitialDelay: 1
+    SpawnQueue:
+    - TargetType: 0
+      TimeToNextSpawn: 2
+    - TargetType: 0
+      TimeToNextSpawn: 2
+  - BulletsCount: 5
+    TargetsSpeedCoefficient: 4
+    InitialDelay: 1
+    SpawnQueue:
+    - TargetType: 0
+      TimeToNextSpawn: 1
+    - TargetType: 0
+      TimeToNextSpawn: 1
+    - TargetType: 0
+      TimeToNextSpawn: 1
+    - TargetType: 0
+      TimeToNextSpawn: 1
+  - BulletsCount: 7
+    TargetsSpeedCoefficient: 5
+    InitialDelay: 1
+    SpawnQueue:
+    - TargetType: 0
+      TimeToNextSpawn: 1
+    - TargetType: 0
+      TimeToNextSpawn: 1
+    - TargetType: 0
+      TimeToNextSpawn: 1
+    - TargetType: 0
+      TimeToNextSpawn: 1
+    - TargetType: 0
+      TimeToNextSpawn: 1
+    - TargetType: 0
+      TimeToNextSpawn: 1
+    - TargetType: 0
+      TimeToNextSpawn: 1
+  - BulletsCount: 7
+    TargetsSpeedCoefficient: 6
+    InitialDelay: 1
+    SpawnQueue:
+    - TargetType: 0
+      TimeToNextSpawn: 1
+    - TargetType: 0
+      TimeToNextSpawn: 1
+    - TargetType: 0
+      TimeToNextSpawn: 1
+    - TargetType: 0
+      TimeToNextSpawn: 0
+    - TargetType: 0
+      TimeToNextSpawn: 1
+    - TargetType: 0
+      TimeToNextSpawn: 0
+    - TargetType: 0
+      TimeToNextSpawn: 1
+  - BulletsCount: 8
+    TargetsSpeedCoefficient: 7
+    InitialDelay: 1
+    SpawnQueue:
+    - TargetType: 0
+      TimeToNextSpawn: 1
+    - TargetType: 0
+      TimeToNextSpawn: 0
+    - TargetType: 0
+      TimeToNextSpawn: 1
+    - TargetType: 0
+      TimeToNextSpawn: 0
+    - TargetType: 0
+      TimeToNextSpawn: 1
+    - TargetType: 0
+      TimeToNextSpawn: 0
+    - TargetType: 0
+      TimeToNextSpawn: 1
+    - TargetType: 0
+      TimeToNextSpawn: 0
+    - TargetType: 0
+      TimeToNextSpawn: 1
+    - TargetType: 0
+      TimeToNextSpawn: 0
+  InitialLives: 3
+  WeaponsDict:
+    _keyData: 00000000
+    _valueData:
+    - RayWeapon.prefab
+  TargetsDict:
+    _keyData: 00000000
+    _valueData:
+    - BasicTarget.prefab
